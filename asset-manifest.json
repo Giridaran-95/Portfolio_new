@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_new/static/css/main.6df8726d.css",
-    "main.js": "/Portfolio_new/static/js/main.c1edd5c6.js",
+    "main.css": "/Portfolio_new/static/css/main.e129f917.css",
+    "main.js": "/Portfolio_new/static/js/main.cb9a2b52.js",
     "static/js/453.a7d99afe.chunk.js": "/Portfolio_new/static/js/453.a7d99afe.chunk.js",
     "static/media/bg.jpg": "/Portfolio_new/static/media/bg.685296bfafdb21fc8cb9.jpg",
     "static/media/tvs-certificate.png": "/Portfolio_new/static/media/tvs-certificate.e8ba325d0d0be4505f53.png",
@@ -21,6 +21,7 @@
     "static/media/instagram.png": "/Portfolio_new/static/media/instagram.a19ba3cfabc05d0ef534.png",
     "static/media/skill.png": "/Portfolio_new/static/media/skill.7a3a6049e17e2fd92e69.png",
     "static/media/project.png": "/Portfolio_new/static/media/project.9926afda780608f91457.png",
+    "static/media/exp.png": "/Portfolio_new/static/media/exp.c3e79f57099867e84ba8.png",
     "static/media/achievement.png": "/Portfolio_new/static/media/achievement.7f60a21792d7d8d76b66.png",
     "static/media/contact.png": "/Portfolio_new/static/media/contact.06ab70148e21bdbc7d08.png",
     "static/media/linkedin.png": "/Portfolio_new/static/media/linkedin.621c16d211a1e995395b.png",
@@ -29,12 +30,12 @@
     "static/media/github.png": "/Portfolio_new/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/about.png": "/Portfolio_new/static/media/about.df5172754eb4e8e0472f.png",
     "index.html": "/Portfolio_new/index.html",
-    "main.6df8726d.css.map": "/Portfolio_new/static/css/main.6df8726d.css.map",
-    "main.c1edd5c6.js.map": "/Portfolio_new/static/js/main.c1edd5c6.js.map",
+    "main.e129f917.css.map": "/Portfolio_new/static/css/main.e129f917.css.map",
+    "main.cb9a2b52.js.map": "/Portfolio_new/static/js/main.cb9a2b52.js.map",
     "453.a7d99afe.chunk.js.map": "/Portfolio_new/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df8726d.css",
-    "static/js/main.c1edd5c6.js"
+    "static/css/main.e129f917.css",
+    "static/js/main.cb9a2b52.js"
   ]
 }
