@@ -3,6 +3,7 @@ import { AppBar, Toolbar, Typography, IconButton, Box, Button, Drawer } from "@m
 import { Menu, X } from "react-feather";
 import home from "../Images/home.png";
 import about from "../Images/about.png";
+import exp from "../Images/exp.png";
 import skills from "../Images/skill.png";
 import achievements from "../Images/achievement.png";
 import contact from "../Images/contact.png";
@@ -11,6 +12,7 @@ import projects from "../Images/project.png";
 const navItems = [
   { label: "Home", href: "#home", icon: home },
   { label: "About", href: "#about", icon: about },
+  { label: "Experience", href: "#experience", icon: exp },
   { label: "Skills", href: "#skills", icon: skills },
   { label: "Projects", href: "#projects", icon: projects },
   { label: "Achievements", href: "#achievements", icon: achievements },
