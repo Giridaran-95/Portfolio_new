@@ -1,0 +1,227 @@
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px 60px 10px;
+  box-sizing: border-box;
+}
+
+/* Glass Container */
+.contact-overlay {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
+}
+
+/* =========================
+   LEFT SIDE
+========================= */
+
+.contact-left {
+  flex: 1;
+}
+
+.logo-name {
+  font-size: 52px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.logo-tagline {
+  margin-top: 10px;
+  color: #00f2ff;
+  font-size: 18px;
+}
+
+/* =========================
+   RIGHT SIDE LINKS
+========================= */
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Link Container */
+.contact-right a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.35s ease;
+  background: transparent;
+}
+
+/* Light Sweep Effect */
+.contact-right a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+}
+
+.contact-right a:hover::before {
+  opacity: 1;
+}
+
+/* Hover Lift */
+.contact-right a:hover {
+  transform: translateY(-4px) scale(1.02);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* =========================
+   ICON STYLES (DANCING)
+========================= */
+
+.contact-right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  filter: grayscale(0.3);
+  animation: iconDance 3s ease-in-out infinite;
+}
+
+/* Staggered dance timing */
+.contact-right a:nth-child(1) img { animation-delay: 0s; }
+.contact-right a:nth-child(2) img { animation-delay: 0.3s; }
+.contact-right a:nth-child(3) img { animation-delay: 0.6s; }
+.contact-right a:nth-child(4) img { animation-delay: 0.9s; }
+
+/* Idle Dance Animation */
+@keyframes iconDance {
+  0%   { transform: translateY(0) rotate(0deg); }
+  25%  { transform: translateY(-4px) rotate(3deg); }
+  50%  { transform: translateY(0) rotate(-3deg); }
+  75%  { transform: translateY(-3px) rotate(2deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+/* Hover Dance Boost */
+.contact-right a:hover img {
+  animation: hoverDance 0.6s infinite;
+  filter: grayscale(0)
+    drop-shadow(0 0 12px rgba(0, 242, 255, 0.7));
+}
+
+@keyframes hoverDance {
+  0%   { transform: scale(1) rotate(0); }
+  25%  { transform: scale(1.15) rotate(8deg); }
+  50%  { transform: scale(1.2) rotate(-8deg); }
+  75%  { transform: scale(1.15) rotate(5deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+
+/* =========================
+   BRAND GLOW COLORS
+========================= */
+
+.contact-right a.instagram:hover img {
+  filter: drop-shadow(0 0 14px #e1306c);
+}
+
+.contact-right a.linkedin:hover img {
+  filter: drop-shadow(0 0 14px #0077b5);
+}
+
+.contact-right a.github:hover img {
+  filter: drop-shadow(0 0 14px #ffffff);
+}
+
+.contact-right a.email:hover img {
+  filter: drop-shadow(0 0 14px #ea4335);
+}
+
+/* ===============================
+   Mobile View (≤768px)
+================================ */
+@media (max-width: 768px) {
+
+  .contact-section {
+    min-height: auto;
+    padding: 20px 15px;
+  }
+
+  .contact-overlay {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+    width: 100%;
+  }
+
+  /* LEFT SIDE */
+  .contact-left {
+    text-align: center;
+  }
+
+  .logo-name {
+    font-size: 34px;
+    letter-spacing: 1px;
+  }
+
+  .logo-tagline {
+    font-size: 15px;
+  }
+
+  /* RIGHT SIDE LINKS */
+  .contact-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-right a {
+    width: 100%;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 14px;
+    padding: 12px 16px;
+  }
+
+  .contact-right img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /* Reduce animation intensity for mobile */
+  .contact-right img {
+    animation-duration: 4s;
+  }
+
+  .contact-right a:hover {
+    transform: none;
+  }
+}
+
+
+

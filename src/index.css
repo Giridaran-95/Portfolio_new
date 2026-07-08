@@ -1,0 +1,15 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+} */
+html, body {
+  height: 100%;
+  background-color: #000; 
+  overflow-x: hidden; 
+}
+section {
+  min-height: 100vh;
+}
+
