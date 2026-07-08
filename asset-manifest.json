@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portfolio_new/static/css/main.6df8726d.css",
+    "main.js": "/Portfolio_new/static/js/main.c1edd5c6.js",
+    "static/js/453.a7d99afe.chunk.js": "/Portfolio_new/static/js/453.a7d99afe.chunk.js",
+    "static/media/bg.jpg": "/Portfolio_new/static/media/bg.685296bfafdb21fc8cb9.jpg",
+    "static/media/tvs-certificate.png": "/Portfolio_new/static/media/tvs-certificate.e8ba325d0d0be4505f53.png",
+    "static/media/acm.png": "/Portfolio_new/static/media/acm.a32b477f44de96d48359.png",
+    "static/media/networking.png": "/Portfolio_new/static/media/networking.e855cd37a995ad249c2d.png",
+    "static/media/playtopia.png": "/Portfolio_new/static/media/playtopia.b342d8372db82f4e6a8f.png",
+    "static/media/me.webp": "/Portfolio_new/static/media/me.2b394c38a6c755feccc7.webp",
+    "static/media/sympo.png": "/Portfolio_new/static/media/sympo.525d6ce17aac47146ee5.png",
+    "static/media/responsive.png": "/Portfolio_new/static/media/responsive.3e2cb299fa381aaace5f.png",
+    "static/media/gaming.png": "/Portfolio_new/static/media/gaming.2b71e175963560ae828c.png",
+    "static/media/advancedit.png": "/Portfolio_new/static/media/advancedit.0519a110fbdf5d2f4e45.png",
+    "static/media/cyber.png": "/Portfolio_new/static/media/cyber.499e968fb3e3a9308134.png",
+    "static/media/tvsscs.jpg": "/Portfolio_new/static/media/tvsscs.a9520d87fee96038e704.jpg",
+    "static/media/skillsbuild.png": "/Portfolio_new/static/media/skillsbuild.fe20027b10c03c2a12f8.png",
+    "static/media/aboutimg.png": "/Portfolio_new/static/media/aboutimg.ef1dae05250aff7cb614.png",
+    "static/media/aifund.png": "/Portfolio_new/static/media/aifund.23db4c63d26c0ef6d397.png",
+    "static/media/instagram.png": "/Portfolio_new/static/media/instagram.a19ba3cfabc05d0ef534.png",
+    "static/media/skill.png": "/Portfolio_new/static/media/skill.7a3a6049e17e2fd92e69.png",
+    "static/media/project.png": "/Portfolio_new/static/media/project.9926afda780608f91457.png",
+    "static/media/achievement.png": "/Portfolio_new/static/media/achievement.7f60a21792d7d8d76b66.png",
+    "static/media/contact.png": "/Portfolio_new/static/media/contact.06ab70148e21bdbc7d08.png",
+    "static/media/linkedin.png": "/Portfolio_new/static/media/linkedin.621c16d211a1e995395b.png",
+    "static/media/home.png": "/Portfolio_new/static/media/home.dc7fa2562a8483990d5e.png",
+    "static/media/mobbg2.webp": "/Portfolio_new/static/media/mobbg2.3857f3a925ca80199949.webp",
+    "static/media/github.png": "/Portfolio_new/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/about.png": "/Portfolio_new/static/media/about.df5172754eb4e8e0472f.png",
+    "index.html": "/Portfolio_new/index.html",
+    "main.6df8726d.css.map": "/Portfolio_new/static/css/main.6df8726d.css.map",
+    "main.c1edd5c6.js.map": "/Portfolio_new/static/js/main.c1edd5c6.js.map",
+    "453.a7d99afe.chunk.js.map": "/Portfolio_new/static/js/453.a7d99afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6df8726d.css",
+    "static/js/main.c1edd5c6.js"
+  ]
+}
