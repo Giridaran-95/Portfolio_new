@@ -1,0 +1,126 @@
+.about-section {
+  min-height: 100vh;
+  padding: 80px 100px;
+  color: #e5e7eb;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.about-title span {
+  color: #00f2ff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-image {
+  max-width: 100%;
+}
+
+.about-card {
+  flex: 1.2;
+  padding: 35px;
+  border-radius: 20px;
+  border: 2px solid #22f0dd;
+  box-shadow: 0 0 25px rgba(34, 240, 221, 0.4);
+  background: #111827;
+}
+
+.about-card p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.download-btn {
+  margin-top: 15px;
+  padding: 12px 22px;
+  font-size: 16px;
+  background: #22f0dd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  background: #14b8a6;
+}
+
+
+/* =========================
+   ABOUT SECTION – RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 60px 20px;
+    min-height: auto;
+  }
+
+  .about-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .about-card {
+    padding: 25px;
+  }
+
+  .about-card p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .download-btn {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-card {
+    padding: 20px;
+  }
+
+  .about-card p {
+    font-size: 14px;
+  }
+
+  .download-btn {
+    width: 100%;
+  }
+}
