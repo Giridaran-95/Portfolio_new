@@ -1,8 +1,8 @@
 {
+  "homepage": "https://giridaran-95.github.io/Portfolio_new",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://giridaran-95.github.io/Portfolio_new",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
